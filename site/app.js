@@ -135,6 +135,60 @@ function uniqueSortedValues(key, multi) {
   return arr.sort((a, b) => a.localeCompare(b, "he"));
 }
 
+function renderCategoryTabs() {
+  const container = document.getElementById("categoryTabs");
+  if (!container) return;
+
+  const counts = categoryCounts();
+  const presentCategories = CATEGORY_ORDER.filter((id) => counts[id] > 0);
+
+  container.innerHTML = "";
+  if (presentCategories.length <= 1) {
+    container.hidden = true;
+    return;
+  }
+  container.hidden = false;
+
+  const isAllActive = state.selectedCategories.size === 0;
+
+  const allBtn = document.createElement("button");
+  allBtn.type = "button";
+  allBtn.className = "category-tab";
+  allBtn.classList.toggle("active", isAllActive);
+  allBtn.textContent = "הכל";
+  allBtn.addEventListener("click", () => {
+    if (isAllActive) return;
+    state.selectedCategories = new Set();
+    state.activeFilters = {};
+    state.searchText = "";
+    const searchInput = document.getElementById("searchInput");
+    if (searchInput) searchInput.value = "";
+    renderFilters();
+    renderProducts();
+  });
+  container.appendChild(allBtn);
+
+  for (const catId of presentCategories) {
+    const isActive = state.selectedCategories.size === 1 && state.selectedCategories.has(catId);
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "category-tab";
+    btn.classList.toggle("active", isActive);
+    btn.textContent = CATEGORY_CONFIG[catId]?.label || catId;
+    btn.addEventListener("click", () => {
+      if (isActive) return;
+      state.selectedCategories = new Set([catId]);
+      state.activeFilters = {};
+      state.searchText = "";
+      const searchInput = document.getElementById("searchInput");
+      if (searchInput) searchInput.value = "";
+      renderFilters();
+      renderProducts();
+    });
+    container.appendChild(btn);
+  }
+}
+
 function renderCategoryFilter() {
   const container = document.getElementById("categoryFilter");
   if (!container) return;
@@ -235,6 +289,7 @@ function renderFilterFields() {
 }
 
 function renderFilters() {
+  renderCategoryTabs();
   renderCategoryFilter();
   renderFilterFields();
 }

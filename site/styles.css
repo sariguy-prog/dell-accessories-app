@@ -121,6 +121,35 @@ body {
   }
 }
 
+.category-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  max-width: 1280px;
+  margin: 20px auto 0;
+  padding: 0 16px;
+}
+
+.category-tab {
+  flex: none;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 9px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.category-tab.active {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+
 .layout {
   display: flex;
   align-items: flex-start;
