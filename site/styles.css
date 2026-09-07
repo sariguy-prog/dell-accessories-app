@@ -37,6 +37,42 @@ body {
   overflow: hidden;
 }
 
+.site-header-bg {
+  display: none;
+}
+
+/* מ-900px ומעלה יש מקום להציג את באנר הרקע המלא (שנועד לפורמט רחב-מסך) */
+@media (min-width: 900px) {
+  .site-header {
+    background: #04213f;
+    padding: 0;
+  }
+
+  .site-header-bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .site-header-content {
+    position: absolute;
+    inset: 0;
+    left: 38%;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* הכיתוב כבר מוטמע בתוך תמונת הבאנר עצמה, אז מוסתר כאן כדי לא להכפיל טקסט מעליה */
+  .site-header h1,
+  .site-header .subtitle,
+  .site-header .header-notice {
+    display: none;
+  }
+}
+
 .site-header h1 {
   margin: 0 0 6px;
   font-size: 1.35rem;

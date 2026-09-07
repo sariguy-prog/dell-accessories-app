@@ -6,9 +6,13 @@
   "description": "כלי סינון עצמאי לקטלוג אביזרי וציוד Dell של CMS, עם שליחת פנייה מוכנה בוואטסאפ",
   "scripts": {
     "scrape": "node scraper/scrape.js",
-    "serve": "npx --yes serve site -l 5174"
+    "serve": "npx --yes serve site -l 5174",
+    "build:banner": "node scraper/build-header-banner.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4"
   }
 }
