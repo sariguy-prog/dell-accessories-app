@@ -1,0 +1,14 @@
+{
+  "name": "dell-accessories-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "כלי סינון עצמאי לקטלוג אביזרי וציוד Dell של CMS, עם שליחת פנייה מוכנה בוואטסאפ",
+  "scripts": {
+    "scrape": "node scraper/scrape.js",
+    "serve": "npx --yes serve site -l 5174"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

@@ -1,0 +1,1100 @@
+[
+  {
+    "sku": "KXTTW-11433",
+    "name": "Dell Adapter 45W 4.5mm",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-45w-4-5mm/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_16585.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "Latitude 3490/3590 / Vostro VS3568/VS5471/VS5370"
+      }
+    ]
+  },
+  {
+    "sku": "G4X7T-10820",
+    "name": "Dell Adapter 65W 7.4mm",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-65w-7-4mm/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_15166.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "For Latitude 5XXX. 7XXX W.Intel GMA"
+      }
+    ]
+  },
+  {
+    "sku": "5GT3K-10821",
+    "name": "Dell Adapter 90W 7.4mm",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-90w-7-4mm/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_15167.jpg",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "For Latitude 5XXX. 7XXX W.Nvidia"
+      }
+    ]
+  },
+  {
+    "sku": "G6J41-10817",
+    "name": "Dell Adapter 65W 4.5mm",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-65w-4-5mm/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_15163.jpg",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "Latitude 3490/3590 / Vostro VS3568/VS5471/VS5370"
+      }
+    ]
+  },
+  {
+    "sku": "450-AKVL",
+    "name": "Dell Adapter 90W 4.5mm",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-90w-4-5mm/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_22605.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "JYJNW",
+    "name": "Dell Adapter 65W Type C",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-65w-type-c/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_16849-300x289.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "Latitude 3490/3590 / Vostro VS3568/VS5471/VS5370"
+      }
+    ]
+  },
+  {
+    "sku": "470-BFBN",
+    "name": "Dell Pro 4-in-1 USB-C Travel Hub-DA225",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-pro-4-in-1-usb-c-travel-hub-da225/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/DA225-600x506.avif",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": "USB-C",
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "Latitude 3490/3590 / Vostro VS3568/VS5471/VS5370"
+      }
+    ]
+  },
+  {
+    "sku": "47RW6-10823",
+    "name": "Adapter 180W 7.4mm",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/adapter-180w-7-4mm/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_15169.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "7530 / Adapter 180W 7.4mm For Precision 7520"
+      }
+    ]
+  },
+  {
+    "sku": "450-15098",
+    "name": "Power Supply : 90W Auto Air Adapter WW",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/power-supply-90w-auto-air-adapter-ww/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/450-15098.png",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "450-ALQT",
+    "name": "Dell USB-C 60W AC Adapter with 1 meter Power Cord - Israel",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-usb-c-60w-ac-adapter-with-1-meter-power-cord-israel/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_23429-300x289.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": "USB-C",
+    "fullSpecs": []
+  },
+  {
+    "sku": "HG5D1-10822",
+    "name": "Dell Adapter 130W 7.4mm",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-130w-7-4mm/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_15168.jpg",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "Adapter 130W 7.4mm For Precision 3520"
+      }
+    ]
+  },
+  {
+    "sku": "M0H25",
+    "name": "DELL Adapter  130W Type C",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-130w-type-c/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_18095-300x289.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "Latitude 3490/3590 / Vostro VS3568/VS5471/VS5370"
+      }
+    ]
+  },
+  {
+    "sku": "450-BBNX",
+    "name": "Dell USB-C 100W AC Adapter 1 meter Power Cord - Israel",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-usb-c-100w-ac-adapter-1-meter-power-cord-israel/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_23430-300x289.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": "USB-C",
+    "fullSpecs": []
+  },
+  {
+    "sku": "TDK33",
+    "name": "Dell Adapter 90W Type C",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-adapter-90w-type-c/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_16850-300x289.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "מתאים ל",
+        "value": "Latitude 3490/3590 / Vostro VS3568/VS5471/VS5370"
+      }
+    ]
+  },
+  {
+    "sku": "450-BBSW",
+    "name": "Dell 165W USB-C GaN SFF AC Adapter with 1m Israel power",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-165w-usb-c-gan-sff-ac-adapter-with-1m-israel-power/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_24001-300x289.jpg",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": "USB-C",
+    "fullSpecs": []
+  },
+  {
+    "sku": "450-ALSK",
+    "name": "Dell 240W 7.4mm GaN SFF AC Adapter with 1m Israel power cord",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-240w-7-4mm-gan-sff-ac-adapter-with-1m-israel-power-cord/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/06/Dell-280W.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "5CMVV",
+    "name": "Dell USB-C 280W Adapter",
+    "category": "chargers",
+    "url": "https://cms.co.il/product/dell-usb-c-280w-adapter/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/01/5CMVV.avif",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": "USB-C",
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-AASI",
+    "name": "Dell Slim Soundbar SB521A",
+    "category": "speakers",
+    "url": "https://cms.co.il/product/dell-slim-soundbar-sb521a/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_19702-600x529.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-AAVQ",
+    "name": "Dell Pro Desktop Speakerphone - SP3022",
+    "category": "speakers",
+    "url": "https://cms.co.il/product/dell-pro-desktop-speakerphone-sp3022/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/SP3022-600x600.avif",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBLY",
+    "name": "Dell Pro Premium Conferencing Soundbar - SB725",
+    "category": "speakers",
+    "url": "https://cms.co.il/product/dell-pro-premium-conferencing-soundbar-sb725/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/520-BBLY-600x480.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBMP",
+    "name": "Dell Pro Wired Speakerphone SP325",
+    "category": "speakers",
+    "url": "https://cms.co.il/product/dell-pro-wired-speakerphone-sp325/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/02/SP325-600x600.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBMZ",
+    "name": "Dell Pro Plus Wireless Speakerphone SL525",
+    "category": "speakers",
+    "url": "https://cms.co.il/product/dell-pro-plus-wireless-speakerphone-sl525/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/02/SP325-600x600.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "460-BDST",
+    "name": "Dell EcoLoop Essential Briefcase 14-16 - CC3624",
+    "category": "bags",
+    "url": "https://cms.co.il/product/dell-ecoloop-essential-briefcase-14-16-cc3624/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/CC3624-600x604.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "460-BDSS",
+    "name": "Dell EcoLoop Essential Backpack 14-16 - CP3724",
+    "category": "bags",
+    "url": "https://cms.co.il/product/dell-ecoloop-essential-backpack-14-16-cp3724/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_24098-600x711.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "460-BFFV",
+    "name": "Dell Pro 14-16 Plus EcoLoop Backpack CP5626",
+    "category": "bags",
+    "url": "https://cms.co.il/product/dell-pro-14-16-plus-ecoloop-backpack-cp5626/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/CP5626-600x742.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "460-BDXV",
+    "name": "Dell Pro 14-16 Premium EcoLoop Slim Backpack - CP7625S",
+    "category": "bags",
+    "url": "https://cms.co.il/product/dell-pro-14-16-premium-ecoloop-slim-backpack-cp7625s/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/460-BDXV-1-600x530.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBLV",
+    "name": "Dell Wired Headset - WH125",
+    "category": "headphones",
+    "url": "https://cms.co.il/product/dell-wired-headset-wh125/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/01/520-BBLV.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBDH",
+    "name": "Dell Wired Headset WH3024",
+    "category": "headphones",
+    "url": "https://cms.co.il/product/dell-wired-headset-wh3024/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_24006-600x597.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBGQ",
+    "name": "Dell Pro Wired ANC Headset - WH5024",
+    "category": "headphones",
+    "url": "https://cms.co.il/product/dell-pro-wired-anc-headset-wh5024/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_24009-600x578.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBDG",
+    "name": "Dell Wireless Headset WL3024",
+    "category": "headphones",
+    "url": "https://cms.co.il/product/dell-wireless-headset-wl3024/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_24008-600x535.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBNM",
+    "name": "Dell Pro Plus Earbuds - EB525",
+    "category": "headphones",
+    "url": "https://cms.co.il/product/dell-pro-plus-earbuds-eb525/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/L_25917-600x537.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "520-BBGM",
+    "name": "Dell Pro Wireless ANC Headset WL5024",
+    "category": "headphones",
+    "url": "https://cms.co.il/product/dell-pro-wireless-anc-headset-wl5024/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_24010-600x536.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "722-BBBV",
+    "name": "Dell Webcam - WB3023",
+    "category": "webcams",
+    "url": "https://cms.co.il/product/dell-webcam-wb3023/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_23226-300x263.jpg",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "722-BBBU",
+    "name": "Dell Pro Webcam - WB5023",
+    "category": "webcams",
+    "url": "https://cms.co.il/product/dell-pro-webcam-wb5023/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_22362-600x544.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "722-BBCT",
+    "name": "Dell Pro 5 Webcam 2K - WB526",
+    "category": "webcams",
+    "url": "https://cms.co.il/product/dell-pro-5-webcam-2k-wb526/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/WB726-600x765.avif",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "722-BBBI",
+    "name": "Dell UltraSharp Webcam - WB7022 - 4K UHD",
+    "category": "webcams",
+    "url": "https://cms.co.il/product/dell-ultrasharp-4k-webcam/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_20167-300x265.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "722-BBCV",
+    "name": "Dell Pro 7 Webcam 4K - WB726",
+    "category": "webcams",
+    "url": "https://cms.co.il/product/dell-pro-7-webcam-4k-wb726/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/WB726-600x765.avif",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-AAIS",
+    "name": "Dell Optical Mouse-MS116 - Black",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-optical-mouse-ms116-black/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_10401.jpg",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": "שחור",
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-AAMH",
+    "name": "Dell Wireless Mouse-WM126",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-wireless-mouse-wm126/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_22716-300x297.png",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-BBMJ",
+    "name": "Dell Wireless Mouse - WM118",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-wireless-mouse-wm118/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/570-BBMJ.avif",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-ABPY",
+    "name": "Dell Mobile Wireless Mouse - MS3320W - Ash Pink",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-mobile-wireless-mouse-ms3320w-ash-pink/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_22609-300x223.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": "ורוד",
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-ABOC",
+    "name": "Dell Full-Size Wireless Mouse - MS300",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-full-size-wireless-mouse-ms300/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_23589-300x259.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-ABHN",
+    "name": "Dell Laser Wired Mouse - MS3220 - Black",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-laser-wired-mouse-ms3220-black/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_20166-300x260.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": "שחור",
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "3 years Advanced Exchange Service"
+      }
+    ]
+  },
+  {
+    "sku": "570-ABHK",
+    "name": "Dell Mobile Wireless Mouse - MS3320W - Black",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-mobile-wireless-mouse-ms3320w-black/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/11/L_25736.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": "שחור",
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-BBJH",
+    "name": "Dell Wireless Silent Mouse - MS355",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-wireless-silent-mouse-ms355/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/570-BBJH-600x524.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-ABHL",
+    "name": "Dell Pro Wireless Mouse - MS5120W - Titan Gray",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-pro-wireless-mouse-ms5120w-titan-gray/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_19029-300x276.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": "אפור",
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-ABHI",
+    "name": "Dell Multi-Device Wireless Mouse - MS5320W",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-multi-device-wireless-mouse-ms5320w/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_19030-300x279.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-BBMG",
+    "name": "Dell Pro 7 Rechargeable Compact Mouse - MS746",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-pro-7-rechargeable-compact-mouse-ms746/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/06/MS746.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-BBFX",
+    "name": "Dell Bluetooth Travel Mouse - MS700-Misty Blue",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-bluetooth-travel-mouse-ms700-misty-blue/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/570-BBFX-600x236.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": "כחול",
+    "connectivity": "Bluetooth",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-ABQN",
+    "name": "Dell Bluetooth Travel Mouse - MS700",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-bluetooth-travel-mouse-ms700/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_22610-300x121.png",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Bluetooth",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-ABLO",
+    "name": "Dell Premier Rechargeable Wireless Mouse - MS7421W",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-premier-rechargeable-wireless-mouse-ms7421w/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_23590-300x275.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "570-BBCB",
+    "name": "Dell Premier Rechargeable Mouse - MS900",
+    "category": "mice",
+    "url": "https://cms.co.il/product/dell-premier-rechargeable-mouse-ms900/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_23591-300x280.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "580-ADHK",
+    "name": "Keyboard :  אנגלית בלבד Dell KB216 USB Black",
+    "category": "keyboards",
+    "url": "https://cms.co.il/product/keyboard-%d7%90%d7%a0%d7%92%d7%9c%d7%99%d7%aa-%d7%91%d7%9c%d7%91%d7%93-dell-kb-216-usb-black/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_14609-300x238.gif",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": "שחור",
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "סינון אחריות",
+        "value": "1Year"
+      }
+    ]
+  },
+  {
+    "sku": "580-ADHZ",
+    "name": "Dell Multimedia Keyboard-KB216 - Hebrew (QWERTY) - Black",
+    "category": "keyboards",
+    "url": "https://cms.co.il/product/dell-multimedia-keyboard-kb216-hebrew-qwerty-black/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_13629.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": "שחור",
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "580-17684",
+    "name": "Keyboard: Hebrew (QWERTY) Dell KB-522 Wired Business Multimedia USB Keyboard Black (Kit)",
+    "category": "keyboards",
+    "url": "https://cms.co.il/product/keyboard-hebrew-qwerty-dell-kb-522-wired-business-multimedia-usb-keyboard-black-kit/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_15219.jpg",
+    "inStock": true,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": "שחור",
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "580-BBTM",
+    "name": "Dell Wired Collaboration Keyboard - KB525C - Hebrew (QWERTY)",
+    "category": "keyboards",
+    "url": "https://cms.co.il/product/dell-wired-collaboration-keyboard-kb525c-hebrew-qwerty/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/KB525C-600x419.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "545-BBFQ-HB",
+    "name": "Alienware Pro Wireless Gaming Keyboard-Hebrew Dark Side of the Moon",
+    "category": "keyboards",
+    "url": "https://cms.co.il/product/alienware-pro-wireless-gaming-keyboard-hebrew-dark-side-of-the-moon/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/545-BBFQ-600x208.avif",
+    "inStock": false,
+    "rawSpec": "2year",
+    "warranty_years": 2,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "580-AKGD",
+    "name": "Dell Wireless Keyboard and Mouse - KM3322W - Hebrew",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-wireless-keyboard-and-mouse-km3322w-hebrew/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_21503-600x459.jpg",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": []
+  },
+  {
+    "sku": "580-AKFZ",
+    "name": "Dell Keyboard and Mouse - KM3322W - US International (QWERTY)",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-keyboard-and-mouse-km3322w-us-international-qwerty/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/580-AKFZ-1-600x373.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "580-AJRY",
+    "name": "Dell Pro Wireless Keyboard and Mouse - KM5221W - Hebrew",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-pro-wireless-keyboard-and-mouse-km5221w-hebrew/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_20165-300x249.jpg",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "3-Year Advanced Exchange Service"
+      }
+    ]
+  },
+  {
+    "sku": "580-AKHJ",
+    "name": "Dell Pro Wireless Keyboard and Mouse - KM5221W - Hebrew - White",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-pro-wireless-keyboard-and-mouse-km5221w-hebrew-white/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_24093-300x178.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": "לבן",
+    "connectivity": "Wireless",
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "3-Year Advanced Exchange Service"
+      }
+    ]
+  },
+  {
+    "sku": "580-BBWB",
+    "name": "Dell Silent Keyboard and Mouse - KM555 - Hebrew (QWERTY)",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-silent-keyboard-and-mouse-km555-hebrew-qwerty/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/580-BBWB-600x353.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "580-AIWG",
+    "name": "Dell Multi-Device Wireless Keyboard and Mouse -KM7120W",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-multi-device-wireless-keyboard-and-mouse-km7120w/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_18288-300x245.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": [
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "אחריות",
+        "value": "שנה אחת אחריות יצרן במעבדה"
+      }
+    ]
+  },
+  {
+    "sku": "580-AJQL",
+    "name": "Dell Premier Multi-Device Wireless Keyboard and Mouse - KM7321W - Heb",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-premier-multi-device-wireless-keyboard-and-mouse-km7321w-heb/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_20164-300x236.jpg",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "Wireless",
+    "fullSpecs": [
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "אחריות",
+        "value": "Advanced Exchange Service – 3 years"
+      }
+    ]
+  },
+  {
+    "sku": "580-BDHR",
+    "name": "Dell Pro 7 Slim Keyboard and Mouse - KM726 - Hebrew (QWERTY)",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-pro-7-slim-keyboard-and-mouse-km726-hebrew-qwerty/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/08/KM726-600x322.avif",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "580-BDRP",
+    "name": "Dell Pro 7 Rechargeable Compact Keyboard and Mouse - KM746 - Hebrew (QWERTY)",
+    "category": "keyboard-mouse-sets",
+    "url": "https://cms.co.il/product/dell-pro-7-rechargeable-compact-keyboard-and-mouse-km746-hebrew-qwerty/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/06/KM746-600x160.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  },
+  {
+    "sku": "470-BCFV",
+    "name": "Dell Adapter USB-C to 2.5G Ethernet",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/dell-adapter-usb-c-to-2-5g-ethernet/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_24002.jpg",
+    "inStock": false,
+    "rawSpec": "1Year",
+    "warranty_years": 1,
+    "color": null,
+    "connectivity": "USB-C",
+    "fullSpecs": []
+  },
+  {
+    "sku": "470-AEUP",
+    "name": "DA310 7-in-1 Dell USB-C Mobile Adapter",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/dell-usb-c-mobile-adapter-da310/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_19703-600x515.png",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "USB-C",
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "שנה אחת במעבדה"
+      }
+    ]
+  },
+  {
+    "sku": "470-BGCG",
+    "name": "Dell Pro 7-in-1 USB-C Travel Hub - DA326",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/dell-pro-7-in-1-usb-c-travel-hub-da326/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/07/DA326-600x405.avif",
+    "inStock": false,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": "USB-C",
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "שנה אחת במעבדה"
+      }
+    ]
+  },
+  {
+    "sku": "210-BRFQ",
+    "name": "Dell Pro Dock WD25 130W",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/dell-pro-dock-wd25-100w-pd/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25623-600x276.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "שלוש שנות אחריות באתר הלקוח"
+      }
+    ]
+  },
+  {
+    "sku": "210-BTJB",
+    "name": "Dell Pro Dock WD25Z 180W",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/dell-pro-dock-wd25z-180w/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/06/210-BTJB-600x237.avif",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "שלוש שנות אחריות באתר הלקוח"
+      }
+    ]
+  },
+  {
+    "sku": "210-BRFM",
+    "name": "Dell Pro Smart Dock SD25 180W",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/dell-pro-smart-dock-sd25-130w-pd/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25624-600x273.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "שלוש שנות אחריות באתר הלקוח"
+      }
+    ]
+  },
+  {
+    "sku": "210-BRFL",
+    "name": "Dell Pro Thunderbolt 4 Smart Dock SD25TB4 180W",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/dell-pro-thunderbolt-4-smart-dock-sd25tb4-130w-pd/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25636-600x273.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "שלוש שנות אחריות באתר הלקוח"
+      }
+    ]
+  },
+  {
+    "sku": "210-BRFN",
+    "name": "Dell Pro Thunderbolt 5 Smart Dock SD25TB5 300W",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/dell-pro-thunderbolt-5-smart-dock-sd25tb5-300w/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/11/L_25753-600x273.png",
+    "inStock": true,
+    "rawSpec": "3Year",
+    "warranty_years": 3,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": [
+      {
+        "label": "אחריות",
+        "value": "שלוש שנות אחריות באתר הלקוח"
+      }
+    ]
+  },
+  {
+    "sku": "17194",
+    "name": "בחירת תחנת עגינה",
+    "category": "docking-stations",
+    "url": "https://cms.co.il/product/%d7%91%d7%97%d7%99%d7%a8%d7%aa-%d7%aa%d7%97%d7%a0%d7%aa-%d7%a2%d7%92%d7%99%d7%a0%d7%94/",
+    "image": "https://cms.co.il/wp-content/uploads/2024/12/L_16615-600x282.jpg",
+    "inStock": true,
+    "rawSpec": "",
+    "warranty_years": null,
+    "color": null,
+    "connectivity": null,
+    "fullSpecs": []
+  }
+]

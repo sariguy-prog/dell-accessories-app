@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>חברי מועדון יקרים - אביזרי וציוד Dell</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-content">
+      <h1>חברי מועדון יקרים</h1>
+      <p class="subtitle">קטלוג אביזרי וציוד Dell מקורי - עכברים, מקלדות, תיקים, אוזניות, מטענים ועוד. מוזמנים לסנן ולשלוח בקשת הצעת מחיר בוואטסאפ ישירות מהמכשיר שלכם.</p>
+      <p class="header-notice">⏱ הצעת המחיר שתקבלו תהיה תקפה לשעה בלבד</p>
+      <button id="toggleFiltersBtn" class="mobile-only toggle-filters-btn" type="button">
+        סינון וחיפוש
+      </button>
+    </div>
+  </header>
+
+  <nav id="categoryTabs" class="category-tabs" hidden></nav>
+
+  <div class="layout">
+    <aside id="filtersPanel" class="filters-panel">
+      <div class="filters-panel-inner">
+        <div class="filters-header">
+          <h2>סינון</h2>
+          <button id="clearFiltersBtn" type="button" class="link-btn">נקה הכל</button>
+        </div>
+
+        <div class="filter-group">
+          <label for="searchInput">חיפוש חופשי</label>
+          <input type="search" id="searchInput" placeholder="לדוגמה: Bluetooth, שחור, MS3220..." />
+        </div>
+
+        <div id="filterFields"></div>
+      </div>
+    </aside>
+
+    <div id="filtersOverlay" class="filters-overlay"></div>
+
+    <main class="results">
+      <div class="results-bar">
+        <span id="resultsCount" class="results-count"></span>
+      </div>
+      <div id="productsGrid" class="products-grid"></div>
+      <p id="emptyState" class="empty-state" hidden>לא נמצאו מוצרים התואמים לסינון שבחרתם.</p>
+    </main>
+  </div>
+
+  <div id="productModal" class="modal-overlay" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalProductName">
+      <button id="modalCloseBtn" class="modal-close" type="button" aria-label="סגירה">&times;</button>
+      <div class="modal-image-wrap">
+        <img id="modalImage" alt="" />
+      </div>
+      <div class="modal-body">
+        <span id="modalRecommendedBadge" class="recommended-badge" hidden>מומלץ</span>
+        <h3 id="modalProductName" class="modal-product-name"></h3>
+        <p id="modalSku" class="product-sku"></p>
+        <p id="modalSpec" class="modal-spec"></p>
+        <span id="modalStockBadge" class="stock-badge"></span>
+        <p class="price-note">מחיר בהתאמה אישית - בקשו הצעה</p>
+        <a id="modalWhatsappBtn" class="whatsapp-btn" target="_blank" rel="noopener">בקשו הצעת מחיר בוואטסאפ</a>
+        <h4 class="modal-specs-title">מפרט מלא</h4>
+        <div class="modal-specs-table-wrap">
+          <table id="modalSpecsTable" class="modal-specs-table"></table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
