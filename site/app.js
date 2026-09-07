@@ -54,14 +54,10 @@ const CATEGORY_ORDER = [
 const state = {
   products: [],
   recommendedSkus: new Set(),
-  category: null,
+  selectedCategories: new Set(), // ריק = כל הקטגוריות
   activeFilters: {}, // key -> Set of selected values
   searchText: "",
 };
-
-function currentCategoryConfig() {
-  return CATEGORY_CONFIG[state.category] || CATEGORY_CONFIG.mice;
-}
 
 function specLine(p) {
   const config = CATEGORY_CONFIG[p.category] || CATEGORY_CONFIG.mice;
@@ -97,21 +93,32 @@ async function loadData() {
   }
   state.products = products;
   state.recommendedSkus = new Set(recommended);
-
-  const presentCategories = new Set(products.map((p) => p.category || "mice"));
-  const orderedPresent = CATEGORY_ORDER.filter((id) => presentCategories.has(id));
-  state.category = orderedPresent[0] || "mice";
 }
 
 // מוצרים שאינם במלאי לא מוצגים באתר כלל - הלקוח לא אמור לראות ולבקש הצעת
-// מחיר על משהו שממילא לא זמין אצל הספק כרגע.
-function categoryProducts() {
-  return state.products.filter((p) => (p.category || "mice") === state.category && p.inStock);
+// מחיר על משהו שממילא לא זמין אצל הספק כרגע. אם לא נבחרה אף קטגוריה בסינון,
+// מוצגות כל הקטגוריות.
+function visibleProducts() {
+  return state.products.filter(
+    (p) =>
+      p.inStock &&
+      (state.selectedCategories.size === 0 || state.selectedCategories.has(p.category || "mice"))
+  );
+}
+
+function categoryCounts() {
+  const counts = {};
+  for (const p of state.products) {
+    if (!p.inStock) continue;
+    const cat = p.category || "mice";
+    counts[cat] = (counts[cat] || 0) + 1;
+  }
+  return counts;
 }
 
 function uniqueSortedValues(key, multi) {
   const values = new Set();
-  for (const p of categoryProducts()) {
+  for (const p of visibleProducts()) {
     const raw = p[key];
     if (multi) {
       if (Array.isArray(raw)) raw.forEach((v) => v && values.add(v));
@@ -128,48 +135,66 @@ function uniqueSortedValues(key, multi) {
   return arr.sort((a, b) => a.localeCompare(b, "he"));
 }
 
-function renderCategoryTabs() {
-  const container = document.getElementById("categoryTabs");
+function renderCategoryFilter() {
+  const container = document.getElementById("categoryFilter");
   if (!container) return;
-
-  const presentCategories = new Set(state.products.map((p) => p.category || "mice"));
-  const orderedPresent = CATEGORY_ORDER.filter((id) => presentCategories.has(id));
-
   container.innerHTML = "";
-  if (orderedPresent.length <= 1) {
+
+  const counts = categoryCounts();
+  const presentCategories = CATEGORY_ORDER.filter((id) => counts[id] > 0);
+  if (presentCategories.length <= 1) {
     container.hidden = true;
     return;
   }
   container.hidden = false;
 
-  for (const catId of orderedPresent) {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "category-tab";
-    btn.classList.toggle("active", catId === state.category);
-    btn.textContent = CATEGORY_CONFIG[catId]?.label || catId;
-    btn.addEventListener("click", () => {
-      if (state.category === catId) return;
-      state.category = catId;
-      state.activeFilters = {};
-      state.searchText = "";
-      const searchInput = document.getElementById("searchInput");
-      if (searchInput) searchInput.value = "";
-      renderCategoryTabs();
-      renderFilterFields();
+  const group = document.createElement("div");
+  group.className = "filter-group";
+
+  const label = document.createElement("label");
+  label.textContent = "קטגוריות מוצרים";
+  group.appendChild(label);
+
+  const list = document.createElement("div");
+  list.className = "checkbox-list";
+
+  for (const catId of presentCategories) {
+    const id = `f-category-${catId}`;
+    const wrapper = document.createElement("label");
+    wrapper.setAttribute("for", id);
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.id = id;
+    checkbox.value = catId;
+    checkbox.checked = state.selectedCategories.has(catId);
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        state.selectedCategories.add(catId);
+      } else {
+        state.selectedCategories.delete(catId);
+      }
+      renderFilters();
       renderProducts();
     });
-    container.appendChild(btn);
+
+    const text = document.createElement("span");
+    text.textContent = `${CATEGORY_CONFIG[catId]?.label || catId} (${counts[catId]})`;
+
+    wrapper.appendChild(checkbox);
+    wrapper.appendChild(text);
+    list.appendChild(wrapper);
   }
+
+  group.appendChild(list);
+  container.appendChild(group);
 }
 
 function renderFilterFields() {
   const container = document.getElementById("filterFields");
   container.innerHTML = "";
 
-  const fields = currentCategoryConfig().fields;
-
-  for (const field of fields) {
+  for (const field of ACCESSORY_FILTER_FIELDS) {
     const values = uniqueSortedValues(field.key, field.multi);
     if (values.length === 0) continue;
 
@@ -209,6 +234,11 @@ function renderFilterFields() {
   }
 }
 
+function renderFilters() {
+  renderCategoryFilter();
+  renderFilterFields();
+}
+
 function toggleFilterValue(key, value, checked) {
   if (!state.activeFilters[key]) state.activeFilters[key] = new Set();
   if (checked) {
@@ -220,10 +250,12 @@ function toggleFilterValue(key, value, checked) {
 }
 
 function matchesFilters(p) {
-  if ((p.category || "mice") !== state.category) return false;
   if (!p.inStock) return false;
+  if (state.selectedCategories.size > 0 && !state.selectedCategories.has(p.category || "mice")) {
+    return false;
+  }
 
-  const fieldsByKey = Object.fromEntries(currentCategoryConfig().fields.map((f) => [f.key, f]));
+  const fieldsByKey = Object.fromEntries(ACCESSORY_FILTER_FIELDS.map((f) => [f.key, f]));
 
   for (const [key, valueSet] of Object.entries(state.activeFilters)) {
     if (valueSet.size === 0) continue;
@@ -384,12 +416,12 @@ function renderProducts() {
   const resultsCount = document.getElementById("resultsCount");
 
   const filtered = state.products.filter(matchesFilters);
-  const totalInCategory = categoryProducts().length;
+  const totalVisible = visibleProducts().length;
 
   grid.innerHTML = "";
   filtered.forEach((p) => grid.appendChild(createProductCard(p)));
 
-  resultsCount.textContent = `${filtered.length} מוצרים מתוך ${totalInCategory}`;
+  resultsCount.textContent = `${filtered.length} מוצרים מתוך ${totalVisible}`;
   emptyState.hidden = filtered.length !== 0;
   grid.hidden = filtered.length === 0;
 }
@@ -405,11 +437,10 @@ function setupSearch() {
 function setupClearFilters() {
   document.getElementById("clearFiltersBtn").addEventListener("click", () => {
     state.activeFilters = {};
+    state.selectedCategories = new Set();
     state.searchText = "";
     document.getElementById("searchInput").value = "";
-    document.querySelectorAll('#filterFields input[type="checkbox"]').forEach((cb) => {
-      cb.checked = false;
-    });
+    renderFilters();
     renderProducts();
   });
 }
@@ -434,8 +465,7 @@ function setupMobileFilters() {
 
 async function init() {
   await loadData();
-  renderCategoryTabs();
-  renderFilterFields();
+  renderFilters();
   renderProducts();
   setupSearch();
   setupClearFilters();
